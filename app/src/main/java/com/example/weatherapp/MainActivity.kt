@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    @SuppressLint("StaticFieldLeak" )
+    @SuppressLint("StaticFieldLeak")
     inner class weatherTask : AsyncTask1<String, Void, String>() {
         override fun onPreExecute() {
             super.onPreExecute()
